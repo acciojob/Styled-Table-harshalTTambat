@@ -1,1 +1,37 @@
 /* your code */
+
+.table_background {
+  
+  background-color: white;
+  border-radius: 15px;
+}
+
+
+table {
+  
+  font-weight: 400;
+  font-style: normal;
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 15px;
+  
+  overflow: hidden;
+  }
+
+th {
+  font-size: 18px;
+  text-align: left;
+  padding: 20px 20px 20px 20px;
+  background-color: aquamarine;
+
+}
+
+table,
+td {
+  padding: 8px 8px 8px 20px;
+  
+}
+
+tr:nth-child(even) {
+  background-color: #eff2f5;
+}
